@@ -3,7 +3,7 @@ import { FcGoogle } from 'react-icons/fc';
 
 function Hero() {
   return (
-    <section className=" sm:min-h-full bg-gray-200 bg-cover left-0 right-0 top-0 bottom-0">
+    <section className="extraPadding bg-gray-200 bg-cover left-0 right-0 top-0 bottom-0">
 	<div className="container grid gap-6 mx-auto lg:grid-cols-2 xl:grid-cols-5">
   <div className="w-full max-w-md p-8 rounded-xl  ">
 	<h1 className="text-3xl text-black font-bold saira ">Welcome Back</h1>
@@ -40,7 +40,7 @@ function Hero() {
 			<FaApple/>
 		</button>
 	</div>
-  <div className="flex items-center sm:pt-24 pt-12">
+  <div className="flex items-center sm:pt-24 pt-12 ">
 				<input required type="checkbox" name="remember" id="remember" aria-label="Remember me" className="mr-1 rounded-sm  focus:border-black focus:ring-2 accent-red-400" />
 				<label className="text-xs inter text-black">Agreeing to our Privacy policy & Terms of use</label>
 			</div>

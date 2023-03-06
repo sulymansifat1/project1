@@ -17,8 +17,10 @@
 }
 
 @media(max-width:640px){
+   
     .bg-cover{
-        background-image: url('/mobile-image.png');
+        height: 100vh;
+        background-image: url('/mobile-img.png');
     }
  
     .saira{
@@ -33,5 +35,8 @@
     .inter-color{
         color: #f56565;
         font-weight: bold;
+    }
+    .extraPadding{
+        padding-top: 10rem;
     }
 }
