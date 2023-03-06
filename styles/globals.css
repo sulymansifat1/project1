@@ -16,3 +16,22 @@
     font-family: 'Inter', sans-serif;
 }
 
+@media(max-width:640px){
+    .bg-cover{
+        background-image: url('/mobile-image.png');
+    }
+ 
+    .saira{
+        color: white;
+    }
+    .popins{
+        color: white;
+    }
+    .inter{
+        color: white; 
+    }
+    .inter-color{
+        color: #f56565;
+        font-weight: bold;
+    }
+}

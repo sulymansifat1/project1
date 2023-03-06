@@ -3,10 +3,10 @@ import { FcGoogle } from 'react-icons/fc';
 
 function Hero() {
   return (
-    <section className=" bg-gray-200">
+    <section className=" sm:min-h-full bg-gray-200 bg-cover left-0 right-0 top-0 bottom-0">
 	<div className="container grid gap-6 mx-auto lg:grid-cols-2 xl:grid-cols-5">
   <div className="w-full max-w-md p-8 rounded-xl  ">
-	<h1 className="text-3xl font-bold saira">Welcome Back</h1>
+	<h1 className="text-3xl text-black font-bold saira ">Welcome Back</h1>
   <p className="pb-6 popins">Let's Start The Journey</p>
 	<form novalidate="" action="" className="space-y-3 ng-untouched ng-pristine ng-valid">
 		<div className="space-y-1 text-sm">
@@ -19,10 +19,10 @@ function Hero() {
 				<input type="checkbox" name="remember" id="remember" aria-label="Remember me" className="mr-1 rounded-sm  focus:border-black focus:ring-2 accent-red-400" />
 				<label for="remember" className="text-xs inter text-black">Remember next time</label>
 			</div>
-			<a className="text-xs text-red-500 inter" href="/">Forgot your password?</a>
+			<a className="text-xs text-red-500 inter-color " href="/">Forgot your password?</a>
 		</div>
 		</div>
-		<button className="block w-full p-3  text-center bg-red-400">Sign in</button>
+		<button className="block w-full p-3  text-center bg-red-400 popins">Sign in</button>
 	</form>
 	<div className="flex items-center pt-4 space-x-1">
 		<div className="flex-1 h-px sm:w-16 dark:bg-gray-700"></div>
@@ -41,12 +41,12 @@ function Hero() {
 		</button>
 	</div>
   <div className="flex items-center sm:pt-24 pt-12">
-				<input type="checkbox" name="remember" id="remember" aria-label="Remember me" className="mr-1 rounded-sm  focus:border-black focus:ring-2 accent-red-400" />
-				<label  className="text-xs inter text-black">Agreeing to our Privacy policy & Terms of use</label>
+				<input required type="checkbox" name="remember" id="remember" aria-label="Remember me" className="mr-1 rounded-sm  focus:border-black focus:ring-2 accent-red-400" />
+				<label className="text-xs inter text-black">Agreeing to our Privacy policy & Terms of use</label>
 			</div>
   
 </div>
-		<img src="/img.png" alt="" className="hidden sm:block object-cover w-full xl:col-span-3" />
+		<img src="/img.png"  alt="" className="hidden sm:hidden md:block object-cover w-full xl:col-span-3" />
 	</div>
 </section>
   );
